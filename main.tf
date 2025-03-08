@@ -16,6 +16,6 @@ resource "aws_s3_bucket" "frontend" {
   force_destroy = true
  
   tags = {
-    Name = "Jenkins Bucket"
+    Name = "Jenkins Bucket for dastardly"
   }
 }
